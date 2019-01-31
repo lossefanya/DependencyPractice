@@ -10,5 +10,7 @@ import Moya
 import RxSwift
 
 final class SuperCoolLibrary {
-
+  func hello() {
+    print("hello")
+  }
 }

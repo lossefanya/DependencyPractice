@@ -11,8 +11,6 @@
 		87BBB5D32202169F00E944D2 /* DependencyPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBB5D22202169F00E944D2 /* DependencyPracticeTests.swift */; };
 		87BBB5D52202169F00E944D2 /* DependencyPractice.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BBB5C72202169F00E944D2 /* DependencyPractice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87BBB5DF220218BF00E944D2 /* SuperCoolLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBB5DE220218BF00E944D2 /* SuperCoolLibrary.swift */; };
-		87BBB5E22202198700E944D2 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BBB5E12202198700E944D2 /* Moya.framework */; };
-		87BBB5E42202198F00E944D2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BBB5E32202198F00E944D2 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BBB5E42202198F00E944D2 /* RxSwift.framework in Frameworks */,
-				87BBB5E22202198700E944D2 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
