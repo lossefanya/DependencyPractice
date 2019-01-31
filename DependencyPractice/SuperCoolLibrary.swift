@@ -6,14 +6,14 @@
 //  Copyright © 2019 lossefanya. All rights reserved.
 //
 
-import Foundation
+import RxSwift
 
 public final class SuperCoolLibrary {
 
   public init() {
 
   }
-  
+
   public func hello() {
     print("hello")
   }
