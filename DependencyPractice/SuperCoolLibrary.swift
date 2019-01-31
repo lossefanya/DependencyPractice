@@ -7,6 +7,7 @@
 //
 
 import RxSwift
+import Moya
 
 public final class SuperCoolLibrary {
 
