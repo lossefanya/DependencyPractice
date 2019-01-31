@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class SuperCoolLibrary {
+public final class SuperCoolLibrary {
   func hello() {
     print("hello")
   }
