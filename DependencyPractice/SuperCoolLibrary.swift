@@ -6,8 +6,7 @@
 //  Copyright © 2019 lossefanya. All rights reserved.
 //
 
-import Moya
-import RxSwift
+import Foundation
 
 final class SuperCoolLibrary {
   func hello() {
