@@ -9,7 +9,7 @@
 import Foundation
 
 public final class SuperCoolLibrary {
-  func hello() {
+  public func hello() {
     print("hello")
   }
 }
