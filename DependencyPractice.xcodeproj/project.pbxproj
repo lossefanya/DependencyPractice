@@ -127,7 +127,7 @@
 				87BBB5C02202169F00E944D2 /* Sources */,
 				87BBB5C12202169F00E944D2 /* Frameworks */,
 				87BBB5C22202169F00E944D2 /* Resources */,
-				87BBB6252202FB2700E944D2 /* ShellScript */,
+				87BBB6252202FB2700E944D2 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -211,7 +211,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		87BBB6252202FB2700E944D2 /* ShellScript */ = {
+		87BBB6252202FB2700E944D2 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,9 +222,12 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
+			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
